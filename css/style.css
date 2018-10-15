@@ -1,0 +1,512 @@
+/* HOME */
+header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 88;
+    transition: 0.5s ease;
+    display: inline;
+
+}
+
+.menu {
+    font-family: 'Kodchasan', sans-serif;
+    display: inline-block;
+
+}
+
+header::before {
+    content: "";
+    display: block;
+    background: black;
+    height: 1px;
+    width: 2000px;
+    bottom: 0;
+    position: absolute
+}
+
+li {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+}
+
+li a:hover {
+    border-radius: 5%;
+    transform: scale(1.1)
+}
+
+li.active a {
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    background: rgb(235, 204, 31);
+    padding: 0 5px;
+    text-align: center;
+}
+
+li a {
+    color: black;
+}
+
+#index .home {
+    background: url(../img/shop.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+#index .home h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 230px;
+    letter-spacing: 0.5rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#index .home p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #e0e0e0d9;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 0.05rem
+}
+
+#index .buttom {
+    text-align: center;
+    display: block;
+    padding-top: 1rem
+}
+
+#index .buttom a {
+    margin-top: 2rem;
+    background: rgba(255, 201, 85, 0.918);
+    text-align: center;
+    padding: 0.7rem 3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px -3px rgb(151, 121, 56) inset
+}
+
+#index .buttom a:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out
+}
+
+#index .content {
+    background: white;
+    min-height: 91vh;
+}
+
+#index .content h5 {
+    margin-top: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+#index .content h5::before {
+    content: '';
+    display: block;
+    background: rgb(167, 166, 166);
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7rem
+}
+
+#index .content p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    font-size: 16pt;
+    color: black;
+    font-family: 'Poiret One', cursive;
+}
+
+#index .picture {
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center
+}
+
+#index .hove {
+    position: relative
+}
+
+#index .picture:hover {
+    transform: scale(0.9);
+    border: 1px solid black
+}
+
+#index .content h6 {
+    background: none;
+    margin: 0px 20px 10px 20px;
+    color: rgb(97, 97, 97);
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 20rem;
+    opacity: 0;
+
+
+}
+
+#index .hove:hover h6 {
+    opacity: 100;
+    background: none;
+    margin: 0px 20px 10px 20px;
+    color: rgb(73, 73, 73);
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    top: 22rem;
+    transition: 0.5s
+}
+
+#index .page {
+    background: rgba(126, 126, 126, 0.705);
+    min-height: 70vh;
+
+}
+
+#index .page .ahihi {
+    margin: 9rem 0 9rem 0;
+}
+
+#index .page .ahihi .pictu {
+    border-radius: 0 5px 5px 0;
+    opacity: 0.5;
+    filter: grayscale(0.7);
+    transition: 0.3s ease
+}
+#index .page .ahihi div>p{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+#index .page .ahihi .pictu:hover {
+    opacity: 1;
+    filter: grayscale(0);
+    transition: 0.3s ease-in-out
+}
+#index .page .ahihi:hover p{
+  color: black;
+  background: rgba(214, 214, 214, 0.658);
+  padding: 3px;
+  transition: 0.3s ease-in-out
+}
+#index .page .ahihi .pictu2 {
+    border-radius:  5px 0 0 5px;
+    opacity: 0.5;
+    filter: grayscale(0.7);
+    transition: 0.3s ease
+}
+
+#index .page .ahihi .pictu2:hover {
+    transition: 0.3s ease-in-out    ;
+    opacity: 1;
+    filter: grayscale(0);
+}
+#index .partner {
+    background: white;
+    min-height: 80vh;
+}
+
+#index .partner .bao {
+    background: #7fa8c0;
+    text-align: center;
+    margin: 6rem 0 1rem 0
+}
+
+#index .partner .bb {
+    padding: 5rem 0 0 0
+}
+
+#index .partner .tuine {
+    padding: 2rem 0 0.5rem 0;
+
+}
+
+#index .partner .chu {
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.801)
+}
+
+#index .partner .tui {
+    border-radius: 50%;
+    border: 1.6px dashed white;
+    padding: 0.5rem
+}
+
+
+
+#index .contact {
+    background: rgb(184, 183, 183);
+    min-height: 10vh;
+    padding: 2rem 0.1rem
+}
+
+#index .contact div.iconn {
+    margin-left: 2rem;
+}
+
+#index .end {
+    background: rgb(58, 58, 58);
+    min-height: 4vh;
+}
+
+#index .end p.copy {
+    padding: 0.5rem 3rem;
+    display: inline-block;
+    color: gray;
+    margin: 0;
+}
+
+/* END HOME */
+
+/* COLLECTION */
+
+#collec .first {
+    background: url(../img/ss1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#collec:before {
+    content: '';
+    display: block;
+    background: black;
+    width: 2px;
+    height: 400px;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    top: 12rem
+}
+
+#collec h3 {
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 7rem 0 0 5rem
+}
+
+#collec .first h2 {
+    margin: 9rem 0 0 1rem;
+}
+
+#collec .first p {
+    margin: 2rem 0 0 1rem;
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+
+}
+
+/* there */
+#collec .there {
+    background: black;
+    min-height: 10vh
+}
+
+#collec .there p {
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: 0;
+
+}
+
+#collec .there p a {
+    border: 1px solid black;
+    color: rgb(241, 239, 239);
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px
+}
+
+#collec .there .nd1:hover a {
+    background: rgba(128, 128, 128, 0.623)
+}
+
+#collec .there .nd2:hover a {
+    background: rgba(128, 128, 128, 0.623)
+}
+
+#collec .there .nd3:hover a {
+    background: rgba(128, 128, 128, 0.623)
+}
+
+#collec .there .nd4:hover a {
+    background: rgba(128, 128, 128, 0.623)
+}
+
+#collec .there .nd1:hover {
+
+    color: gray;
+    background: url(../img/11.jpg) center;
+    background-size: cover;
+    transition: 0.5S ease-in-out
+}
+
+#collec .there .nd2:hover {
+
+    color: gray;
+    background: url(../img/12.jpg) center;
+    background-size: cover;
+    transition: 0.5S ease-in-out;
+
+}
+
+#collec .there .nd3:hover {
+
+    color: gray;
+    background: url(../img/13.jpg) center;
+    background-size: cover;
+    transition: 0.5S ease-in-out
+}
+
+#collec .there .nd4:hover {
+
+    color: gray;
+    background: url(../img/14.jpg) center;
+    background-size: cover;
+    transition: 0.5S ease-in-out
+}
+
+/* seasons */
+#collec .seasons {
+    background: rgb(255, 202, 202);
+    min-height: 90vh;
+    display: flex;
+}
+
+#collec .seasons .p2 {
+    background: white;
+    padding: 0 2rem;
+    margin-top: 0%;
+    margin-bottom: 0%
+}
+
+#collec .seasons .title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1.5px dashed rgb(163, 50, 50);
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+#collec .seasons .sp {
+    padding: 2px;
+    text-align: center;
+    opacity: 0.9;
+    position: relative;
+    transition: 0.5s ease-in-out;
+    filter: grayscale(80%)
+}
+
+#collec .seasons .sp:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    filter: grayscale(0)
+}
+
+#collec .seasons .sp>P {
+    position: absolute;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    top: 1rem;
+    padding: 6rem 10rem 14rem 2rem;
+    opacity: 0;
+
+}
+
+#collec .seasons .sp>p:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+#collec .seasons .button {
+    text-align: center;
+    padding: 3rem 0 8.1rem 0;
+}
+
+#collec .seasons .btn-outline-warning:hover {
+    background: none;
+    transform: scale(1.1);
+    color: black;
+
+}
+
+#collec .beach {
+min-height: 100vh;
+background: #f5f5f5;
+text-align: center;
+}
+#collec .beach .cogai {
+    padding: 1rem
+}
+#collec .beach .co {
+    border: 2px solid gray;
+    margin: 3px
+}
+
+/* winter */
+#collec .event {
+    background: rgb(121, 155, 164);
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+#collec .event .ns {
+    text-align: center;
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px dashed black;
+    padding: 3px 6px;
+    color: black;
+}
+
+#collec .event .ns:hover {
+    color: white
+}
